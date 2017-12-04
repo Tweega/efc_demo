@@ -36,10 +36,10 @@ def keyup(key):
     move(x)
 
 def doLeftClick(m):
-    move(-1)
+    move(1)
 
 def doRightClick(m):
-    move(1)
+    move(-1)
 
 root = tk.Tk()
 
